@@ -1,0 +1,76 @@
+.footer-wrapper {
+    padding: 12px;
+}
+.footer-layout {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 33px;
+    padding: 32px;
+}
+.contact-txt {
+    display: flex;
+    padding: 13px;
+}
+
+.row__input {
+    /* max-width: 320px; */
+    width: 62%;
+    padding: 4px;
+    border-top: none;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'EB Garamond', sans-serif;
+    letter-spacing: 1px;
+    background: none;
+    font-size: 1.2rem;
+    margin-bottom: 34px;
+}
+.form-layout {
+    text-align: center;
+}
+.q-txt {
+    position: relative;
+    right: 103px;
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+}
+.q-txt2 {
+    position: relative;
+    left: 0;
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+}
+.txt-area {
+    background: #202020;
+    width: 63%;
+    height: 35%;
+}
+.msg-txt {
+    position: relative;
+    right: 159px;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    margin-bottom: 26px;
+    color: #7c7c7c;
+}
+.icon-pos {
+    margin-right: 12px;
+}
+.f-txt {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+.footer {
+    text-align: center;
+    /* background: #202020; */
+    padding: 15px;
+    width: 100%;
+    margin-top: 18px;
+}
+.copy-txt {
+    color: #535151;
+    letter-spacing: 1px;
+}

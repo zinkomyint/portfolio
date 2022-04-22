@@ -1,0 +1,52 @@
+.design-wrapper {
+    background: #202020;
+    padding: 24px;
+}
+.ui-txt {
+    font-size: 1.5rem;
+    text-align: center;
+}
+.ui-txt2 {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin-top: 14px;
+    padding-bottom: 14px;
+}
+.content-layout {
+    width: 55%;
+    padding: 12px;
+}
+.ui-line {
+    border-bottom: 1px solid #fff;
+    width: 9%;
+    text-align: center;
+    margin: auto;
+    margin-top: 4px;
+}
+.ui-card {
+    display: grid;
+    grid-template-columns: 17% 17% 61%;
+    grid-gap: 33px;
+    padding: 32px;
+}
+.card1 {
+    max-width: 400px;
+    height: 379px;
+    border: 1px solid white;
+    margin-top: 32px;
+}
+.ui-1 {
+    position: relative;
+    bottom: 30px;
+    left: 61px;
+}
+.ui-2 {
+    position: relative;
+    bottom: 30px;
+    left: 66px;
+}
+.ui-image-layout {
+    text-align: center;
+    padding-top: 54px;
+}

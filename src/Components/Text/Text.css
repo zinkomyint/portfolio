@@ -1,0 +1,31 @@
+.content-wrapper {
+    padding: 5px;
+}
+.content-txt {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-gap: 33px;
+    padding: 32px;
+}
+.content-txt2 {
+    padding: 25px;
+    margin-top: 37px;
+}
+.content-txt3 {
+    margin-bottom: 39px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+.content-line1 {
+    border-top: 1px solid white;
+    margin-bottom: 34px;
+}
+.content-line2 {
+    border-top: 1px solid white;
+    margin-bottom: 34px;
+}
+.content-image {
+    text-align: center;
+    margin-top: 22px;
+}

@@ -1,0 +1,99 @@
+.intro-warpper {
+    padding: 20px;
+    height: 99vh;
+}
+.left-social {
+    position: absolute;
+    left: 18px;
+}
+.right-robot {
+    position: absolute;
+    right: 150px;
+    top: 134px;
+}
+.text-center {
+    left: 160px;
+    position: absolute;
+    top: 289px;
+    line-height: 21px;
+}
+.line1{
+    transform: rotate(90deg);
+    border-top: 1px solid #4a4a4a;
+    position: relative;
+    right: 67px;
+    width: 264px;
+    bottom: 153px;
+}
+.line2 {
+    transform: rotate(90deg);
+    border-top: 1px solid #4a4a4a;
+    position: relative;
+    right: 24px;
+    width: 174px;
+    top: 116px;
+    z-index: -1;
+} 
+.line3 {
+    transform: rotate(90deg);
+    border-top: 1px solid #4a4a4a;
+    position: relative;
+    left: 136px;
+    width: 133px;
+    bottom: 68px;
+}
+.line4 {
+    transform: rotate(90deg);
+    border-top: 1px solid #4a4a4a;
+    position: relative;
+    left: 161px;
+    width: 87px;
+    top: 45px;
+    z-index: -1;
+}
+.name-txt {
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+}
+.name-txt-2 {
+    font-size: 1.65rem;
+    letter-spacing: 1px;
+}
+.contact-me {
+    margin-top: 23px;
+    border: 1px solid #767575;
+    width: 29%;
+    padding: 14px;
+    text-align: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.social-txt {
+    position: relative;
+    top: 200px;
+    transform: rotate(271deg);
+    letter-spacing: 2px;
+    right: 23px;
+    font-size: 0.9rem;
+}
+.fb-icons {
+    position: relative;
+    top: 234px;
+    letter-spacing: 2px;
+    left: 1px;
+    font-size: 0.9rem;
+}
+.insta-icons {
+    position: relative;
+    top: 258px;
+    letter-spacing: 2px;
+    right: 14px;
+    font-size: 0.9rem;
+}
+.viber-icons {
+    position: relative;
+    top: 284px;
+    letter-spacing: 2px;
+    right: 29px;
+    font-size: 0.9rem;
+}

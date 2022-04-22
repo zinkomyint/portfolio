@@ -1,0 +1,64 @@
+.about-wrapper {
+    background:#202020;
+    padding: 4px;
+    /* max-height: 497px;
+    height: 9%; */
+}
+.about-layout {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-gap: 33px;
+    padding: 32px;
+    grid-template-rows: 318px 1fr;
+}
+.about-txt {
+    font-size: 1.3rem;
+    color: #9c9c9c;
+    letter-spacing: 3px;
+}
+.about-txt-border {
+    height: 26%;
+    position: relative;
+    top: 78px;
+    left: 28px;
+    padding: 19px;
+}
+.about-image {
+    text-align: center;
+    position: relative;
+    bottom: 97px;
+}
+.about-me {
+    position: relative;
+    top: 36px;
+    left: 83px;
+    font-size: 23px;
+    letter-spacing: 2px;
+}
+.about-title {
+    position: relative;
+    left: 83px;
+    top: 21px;
+    letter-spacing: 2px;
+}
+.about-uline {
+    border-bottom: 1px solid white;
+    width: 6%;
+    position: relative;
+    top: 36px;
+    left: 83px;
+    margin-top: 8px;
+}
+.about-cv-post {
+    position: relative;
+    top: 78px;
+    border: 1px solid white;
+    width: 28%;
+    padding: 15px;
+    cursor: pointer;
+}
+.download-cv {
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 1.1rem;
+}
