@@ -1,99 +1,302 @@
 .intro-warpper {
-    padding: 20px;
-    height: 99vh;
+	padding: 20px;
+	height: 674px;
 }
 .left-social {
-    position: absolute;
-    left: 18px;
+	position: absolute;
+	left: 18px;
 }
 .right-robot {
-    position: absolute;
-    right: 150px;
-    top: 134px;
+	position: absolute;
+	right: 150px;
+	top: 134px;
 }
 .text-center {
-    left: 160px;
-    position: absolute;
-    top: 289px;
-    line-height: 21px;
+	left: 160px;
+	position: absolute;
+	top: 289px;
+	line-height: 21px;
 }
-.line1{
-    transform: rotate(90deg);
-    border-top: 1px solid #4a4a4a;
-    position: relative;
-    right: 67px;
-    width: 264px;
-    bottom: 153px;
+.line1 {
+	transform: rotate(90deg);
+	border-top: 1px solid #4a4a4a;
+	position: relative;
+	right: 67px;
+	width: 264px;
+	bottom: 153px;
 }
 .line2 {
-    transform: rotate(90deg);
-    border-top: 1px solid #4a4a4a;
-    position: relative;
-    right: 24px;
-    width: 174px;
-    top: 116px;
-    z-index: -1;
-} 
+	transform: rotate(90deg);
+	border-top: 1px solid #4a4a4a;
+	position: relative;
+	right: 24px;
+	width: 174px;
+	top: 116px;
+	z-index: -1;
+}
 .line3 {
-    transform: rotate(90deg);
-    border-top: 1px solid #4a4a4a;
-    position: relative;
-    left: 136px;
-    width: 133px;
-    bottom: 68px;
+	transform: rotate(90deg);
+	border-top: 1px solid #4a4a4a;
+	position: relative;
+	left: 136px;
+	width: 133px;
+	bottom: 68px;
 }
 .line4 {
-    transform: rotate(90deg);
-    border-top: 1px solid #4a4a4a;
-    position: relative;
-    left: 161px;
-    width: 87px;
-    top: 45px;
-    z-index: -1;
+	transform: rotate(90deg);
+	border-top: 1px solid #4a4a4a;
+	position: relative;
+	left: 161px;
+	width: 87px;
+	top: 45px;
+	z-index: -1;
 }
 .name-txt {
-    font-size: 1.3rem;
-    letter-spacing: 2px;
+	font-size: 1.3rem;
+	letter-spacing: 2px;
 }
 .name-txt-2 {
-    font-size: 1.65rem;
-    letter-spacing: 1px;
+	font-size: 1.65rem;
+	letter-spacing: 1px;
 }
 .contact-me {
-    margin-top: 23px;
-    border: 1px solid #767575;
-    width: 29%;
-    padding: 14px;
-    text-align: center;
-    letter-spacing: 1px;
-    cursor: pointer;
+	margin-top: 23px;
+	border: 1px solid #767575;
+	width: 29%;
+	padding: 14px;
+	text-align: center;
+	letter-spacing: 1px;
+	cursor: pointer;
 }
+.contact-me:hover {
+	background: red;
+}
+
 .social-txt {
-    position: relative;
-    top: 200px;
-    transform: rotate(271deg);
-    letter-spacing: 2px;
-    right: 23px;
-    font-size: 0.9rem;
+	position: relative;
+	top: 200px;
+	transform: rotate(271deg);
+	letter-spacing: 2px;
+	right: 23px;
+	font-size: 0.9rem;
 }
 .fb-icons {
-    position: relative;
-    top: 234px;
-    letter-spacing: 2px;
-    left: 1px;
-    font-size: 0.9rem;
+	position: relative;
+	top: 234px;
+	letter-spacing: 2px;
+	left: 1px;
+	font-size: 0.9rem;
 }
 .insta-icons {
-    position: relative;
-    top: 258px;
-    letter-spacing: 2px;
-    right: 14px;
-    font-size: 0.9rem;
+	position: relative;
+	top: 258px;
+	letter-spacing: 2px;
+	right: 14px;
+	font-size: 0.9rem;
 }
 .viber-icons {
-    position: relative;
-    top: 284px;
-    letter-spacing: 2px;
-    right: 29px;
-    font-size: 0.9rem;
+	position: relative;
+	top: 284px;
+	letter-spacing: 2px;
+	right: 29px;
+	font-size: 0.9rem;
+}
+
+/*contact-me*/
+
+.button-container-2 {
+	position: relative;
+	width: 30%;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 7vh;
+	overflow: hidden;
+	/* border: 1px solid #fff; */
+	font-weight: 300;
+	transition: 0.5s;
+	letter-spacing: 1px;
+	background: #fff;
+	right: 192px;
+}
+.button-container-2 button {
+	width: 100%;
+	height: 100%;
+	font-size: 1rem;
+	letter-spacing: 1px;
+	background: #000;
+	-webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
+	mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
+	-webkit-mask-size: 3000% 100%;
+	mask-size: 3000% 100%;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	-webkit-animation: ani2 0.7s steps(29) forwards;
+	animation: ani2 0.7s steps(29) forwards;
+}
+.button-container-2 button:hover {
+	-webkit-animation: ani 0.7s steps(29) forwards;
+	animation: ani 0.7s steps(29) forwards;
+}
+
+.mas {
+	position: absolute;
+	color: #000;
+	text-align: center;
+	width: 101%;
+	font-weight: 300;
+	/* position: absolute; */
+	font-size: 1rem;
+	margin-top: 15px;
+	overflow: hidden;
+	font-weight: bold;
+}
+
+@-webkit-keyframes ani {
+	from {
+		-webkit-mask-position: 0 0;
+		mask-position: 0 0;
+	}
+	to {
+		-webkit-mask-position: 100% 0;
+		mask-position: 100% 0;
+	}
+}
+@keyframes ani {
+	from {
+		-webkit-mask-position: 0 0;
+		mask-position: 0 0;
+	}
+	to {
+		-webkit-mask-position: 100% 0;
+		mask-position: 100% 0;
+	}
+}
+@-webkit-keyframes ani2 {
+	from {
+		-webkit-mask-position: 100% 0;
+		mask-position: 100% 0;
+	}
+	to {
+		-webkit-mask-position: 0 0;
+		mask-position: 0 0;
+	}
+}
+@keyframes ani2 {
+	from {
+		-webkit-mask-position: 100% 0;
+		mask-position: 100% 0;
+	}
+	to {
+		-webkit-mask-position: 0 0;
+		mask-position: 0 0;
+	}
+}
+
+/*contact-me*/
+.btn_ani {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #1670f0;
+	/* padding: 30px 60px; */
+	font-size: 30px;
+	text-transform: uppercase;
+	border: 0;
+	letter-spacing: 2px;
+	background-color: transparent;
+	box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+	overflow: hidden;
+}
+
+.btn_ani::before {
+	content: "";
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	bottom: 2px;
+	width: 50%;
+	/* background-color: rgba(255, 255, 255, 0.05); */
+}
+
+.btn_ani span:nth-child(1) {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background: red;
+	animation: border-animetion1 2s linear infinite 1s;
+}
+
+@keyframes border-animetion1 {
+	0% {
+		transform: translateX(-100%);
+	}
+
+	100% {
+		transform: translateX(100%);
+	}
+}
+
+button span:nth-child(2) {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	background: red;
+	animation: border-animetion2 2s linear infinite;
+}
+
+@keyframes border-animetion2 {
+	0% {
+		transform: translateY(-100%);
+	}
+
+	100% {
+		transform: translateY(100%);
+	}
+}
+
+.btn_ani span:nth-child(3) {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background: red;
+	animation: border-animetion3 2s linear infinite 1s;
+}
+
+@keyframes border-animetion3 {
+	0% {
+		transform: translateX(100%);
+	}
+
+	100% {
+		transform: translateX(-100%);
+	}
+}
+
+.btn_ani span:nth-child(4) {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 2px;
+	height: 100%;
+	background: red;
+	animation: border-animetion4 2s linear infinite;
+}
+
+@keyframes border-animetion4 {
+	0% {
+		transform: translateY(100%);
+	}
+
+	100% {
+		transform: translateY(-100%);
+	}
 }

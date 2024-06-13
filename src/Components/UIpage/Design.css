@@ -5,6 +5,7 @@
 .ui-txt {
     font-size: 1.5rem;
     text-align: center;
+    margin-bottom: 12px;
 }
 .ui-txt2 {
     font-size: 1.2rem;
@@ -31,9 +32,9 @@
     padding: 32px;
 }
 .card1 {
-    max-width: 400px;
-    height: 379px;
-    border: 1px solid white;
+    /* max-width: 400px; */
+    /* height: 346px; */
+    border: 1px solid #50dfdb73;
     margin-top: 32px;
 }
 .ui-1 {

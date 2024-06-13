@@ -1,19 +1,31 @@
 .logopage-wrapper {
-    padding: 39px;
+	padding: 39px;
 }
 .logo-title {
-    font-size: 21px;
-    letter-spacing: 1px;
-    color: #bab5b5;
-    margin-bottom: 29px; 
+	font-size: 21px;
+	letter-spacing: 1px;
+	color: #bab5b5;
+	margin-bottom: 29px;
 }
 .ui-line {
-    width: 98%;
-    margin: auto;
-    border: 1px solid #656565;
+	width: 98%;
+	margin: auto;
+	border: 1px solid #656565;
 }
 .logo-layout {
-    display: flex;
-    padding: 11px;
-    margin-top: 42px;
+	display: flex;
+	padding: 11px;
+	margin-top: 42px;
+}
+.logo-layout-img1 {
+	width: 60%;
+}
+.logo-layout-img2 {
+	width: 60%;
+}
+.logo-layout-img3 {
+	width: 60%;
+}
+.img_wrap {
+	text-align: center;
 }

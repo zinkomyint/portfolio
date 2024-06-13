@@ -1,64 +1,217 @@
 .about-wrapper {
-    background:#202020;
-    padding: 4px;
-    /* max-height: 497px;
+	background: #202020;
+	padding: 4px;
+	/* max-height: 497px;
     height: 9%; */
 }
 .about-layout {
-    display: grid;
-    grid-template-columns: 65% 35%;
-    grid-gap: 33px;
-    padding: 32px;
-    grid-template-rows: 318px 1fr;
+	display: grid;
+	grid-template-columns: 65% 35%;
+	grid-gap: 33px;
+	padding: 32px;
+	grid-template-rows: 318px 1fr;
+}
+@media screen and (max-width: 430px) and (min-width: 300px) {
+	.about-layout {
+		display: flex;
+	}
 }
 .about-txt {
-    font-size: 1.3rem;
-    color: #9c9c9c;
-    letter-spacing: 3px;
+	font-size: 1.3rem;
+	color: #9c9c9c;
+	letter-spacing: 3px;
 }
 .about-txt-border {
-    height: 26%;
-    position: relative;
-    top: 78px;
-    left: 28px;
-    padding: 19px;
+	height: 26%;
+	position: relative;
+	top: 78px;
+	left: 28px;
+	padding: 19px;
 }
 .about-image {
-    text-align: center;
-    position: relative;
-    bottom: 97px;
+	text-align: center;
+	position: relative;
+	bottom: 63px;
+}
+@media screen and (max-width: 430px) and (min-width: 300px) {
+	.img_none {
+		display: none;
+	}
 }
 .about-me {
-    position: relative;
-    top: 36px;
-    left: 83px;
-    font-size: 23px;
-    letter-spacing: 2px;
+	position: relative;
+	top: 36px;
+	left: 83px;
+	font-size: 23px;
+	letter-spacing: 2px;
 }
 .about-title {
-    position: relative;
-    left: 83px;
-    top: 21px;
-    letter-spacing: 2px;
+	position: relative;
+	left: 83px;
+	top: 21px;
+	letter-spacing: 2px;
 }
 .about-uline {
-    border-bottom: 1px solid white;
-    width: 6%;
-    position: relative;
-    top: 36px;
-    left: 83px;
-    margin-top: 8px;
+	border-bottom: 1px solid white;
+	width: 6%;
+	position: relative;
+	top: 36px;
+	left: 83px;
+	margin-top: 8px;
 }
 .about-cv-post {
-    position: relative;
-    top: 78px;
-    border: 1px solid white;
-    width: 28%;
-    padding: 15px;
-    cursor: pointer;
+	position: relative;
+	top: 78px;
+	/* border: 1px solid white; */
+	width: 28%;
+	padding: 15px;
+	cursor: pointer;
 }
 .download-cv {
-    text-align: center;
-    letter-spacing: 3px;
-    font-size: 1.1rem;
+	letter-spacing: 3px;
+	font-size: 1.1rem;
+	background: none;
+	border: none;
+	z-index: 1111;
+	position: relative;
+	left: 17%;
+	cursor: pointer;
+}
+/*download*/
+.animate {
+	position: absolute;
+	top: 50%;
+	left: 72%;
+	transform: translate(-50%, -50%);
+	width: 300px;
+	/* height: 59px; */
+	background: #111845a6;
+	box-sizing: border-box;
+	overflow: hidden;
+	box-shadow: 0 20px 50px rgb(23, 32, 90);
+	/* border: 2px solid #2a3cad; */
+	color: white;
+	padding: 20px;
+}
+
+.animate:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.1);
+	transition: 0.5s;
+	pointer-events: none;
+}
+
+.animate:hover:before {
+	left: -50%;
+	transform: skewX(-5deg);
+}
+
+.animate .content {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	right: 15px;
+	bottom: 15px;
+	border: 1px solid #f0a591;
+	padding: 20px;
+	text-align: center;
+	box-shadow: 0 5px 10px rgba(9, 0, 0, 0.5);
+}
+
+.animate span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	box-sizing: border-box;
+}
+
+.animate span:nth-child(1) {
+	transform: rotate(0deg);
+}
+
+.animate span:nth-child(2) {
+	transform: rotate(180deg);
+}
+
+.animate span:nth-child(3) {
+	transform: rotate(180deg);
+}
+
+.animate span:nth-child(4) {
+	transform: rotate(270deg);
+}
+
+.animate span:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background: #50dfdb;
+	animation: animate 4s linear infinite;
+}
+
+@keyframes animate {
+	0% {
+		transform: scaleX(0);
+		transform-origin: left;
+	}
+	50% {
+		transform: scaleX(1);
+		transform-origin: left;
+	}
+	50.1% {
+		transform: scaleX(1);
+		transform-origin: right;
+	}
+
+	100% {
+		transform: scaleX(0);
+		transform-origin: right;
+	}
+}
+
+/**/
+.ajs-header {
+	background: #444 !important;
+	/* display: none; */
+}
+.ajs-content {
+	color: red !important;
+}
+.ajs-dialog {
+	width: 28% !important;
+}
+.ajs-button {
+	background: #222;
+	border: none;
+	/* box-shadow: 0 4px 6px 2px rgba(0,0,0,.14); */
+}
+.ajs-input {
+	border: 1px solid #ddd;
+	font-size: 13px;
+	padding: 4px;
+	width: 100%;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #a9a5a5;
+	color: black;
+}
+.alertify .ajs-dialog {
+	top: 110px;
+}
+@media screen and (min-device-width: 380px) and (max-device-width: 420px) {
+	.img_size {
+		width: 77%;
+	}
+}
+.img_size {
+	width: 300px;
 }

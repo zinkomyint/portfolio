@@ -33,7 +33,7 @@
 }
 .q-txt {
     position: relative;
-    right: 103px;
+    right: 83px;
     font-size: 1.5rem;
     margin-bottom: 16px;
 }
@@ -49,8 +49,9 @@
     height: 35%;
 }
 .msg-txt {
-    position: relative;
-    right: 159px;
+    /* position: relative;
+    right: 159px; */
+    width: 50%;
     font-size: 1.3rem;
     letter-spacing: 1px;
     margin-bottom: 26px;
@@ -74,3 +75,36 @@
     color: #535151;
     letter-spacing: 1px;
 }
+.label-name {
+    position: absolute;
+    padding: 12px;
+    font-size: 1.2rem;
+    color: #8a8a8a;
+    letter-spacing: 1px;
+}
+.submit {
+    position: relative;
+    right: 17%;
+}
+.m-t-15 {
+    margin-top: 15px;
+}
+.alertify-notifier.ajs-right .ajs-message.ajs-visible {
+    right: 156px;
+    text-align: center;
+    width: 131px;
+    /* border-radius: 6px; */
+  }
+  .alertify-notifier .ajs-message.ajs-success {
+    background: rgba(59, 169, 76, 0.39) !important;
+  }
+  .ajs-message {
+    background: #202020;
+    position: absolute;
+    right: 1%;
+    bottom: 159%;
+    border: 1px solid #00ffdb69;
+  }
+  .alertify-notifier.ajs-right .ajs-message.ajs-visible {
+    right: 137px !important;
+  }
